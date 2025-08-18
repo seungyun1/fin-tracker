@@ -1,6 +1,6 @@
 from bson import ObjectId
 from motor.motor_asyncio import AsyncIOMotorDatabase
-from models.income_model import build_income_dict
+from app.models.income_model import build_income_dict
 from datetime import datetime
 
 class IncomeRepository:

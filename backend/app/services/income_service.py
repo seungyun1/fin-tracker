@@ -1,5 +1,5 @@
-from repositories.income_repository import IncomeRepository
-from schemas.income_schema import IncomeCreate
+from app.repositories.income_repository import IncomeRepository
+from app.schemas.income_schema import IncomeCreate
 
 class IncomeService:
     def __init__(self, repo: IncomeRepository):
